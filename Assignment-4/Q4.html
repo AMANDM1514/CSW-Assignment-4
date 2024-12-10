@@ -12,10 +12,63 @@ Add animated effects to each alert box with a 5-second transition effect.-->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            .alert{
+                transition: opacity 5s;
+            }
+        </style>
     </head>
     <body>
-        <div class="container">
-            
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>Success!</strong> Your form was successful updated.
+                        <a href="#" class="alert-link"> Learn more</a>.
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="alert alert-info alert-dismissible fade show" role="alert">
+                        <strong>Info!</strong> Some important information about course.
+                        <a href="#" class="alert-link">Read more</a>.
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                </div>
+        
+                <div class="col-12">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>Warning!</strong> Please enter the right information.
+                        <a href="#" class="alert-link">Check here</a> for more details.
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                </div>
+        
+                <div class="col-12">
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <strong>Danger!</strong> Something went wrong. Try again.
+                        <a href="#" class="alert-link">Report the issue</a>.
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                </div>
+        
+                <div class="col-12">
+                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                        <strong>Notice!</strong> This is a primary alert message.
+                        <a href="#" class="alert-link">Learn more</a>.
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                </div>
+        
+                <div class="col-12">
+                    <div class="alert alert-light alert-dismissible fade show" role="alert">
+                        <strong>Hurry!</strong> Grab the deals right now.
+                        <a href="#" class="alert-link">Click here</a>.
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
