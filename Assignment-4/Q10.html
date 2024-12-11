@@ -11,9 +11,22 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            .body{
+                font-family: 'times new roman';
+            }
+            .carousel-inner img{
+                width: 100%;
+                transition: transform 0.5s ease;
+            }
+            .carousel-inner .carousel-item:hover img{
+                transform: scale(1.1);
+            }
+            
+        </style>
     </head>
     <body>
-        <div class="container mt-5">
+        <div class="container mt-3">
             <div id="demo" class="carousel slide" data--ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -24,45 +37,55 @@
                 </ul>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS1TyNH7XWWo-fnd3jDPXSOsHW0oMPkOkI73ThDi9_5PC3AXpIclxIt8q8c8_sH_0Fn3NXPB_9LN0Fo5YB1IPK4KSE1fbHVLaVXf6FrOQ" alt="Taj Mahal" width="1100" height="500">
+                        <img src="https://ayuryogpeeth.com/blog/wp-content/uploads/2024/03/1080p-ayodhya-ram-mandir-hd-wallpaper.png" class="d-block" alt="Ram Mandir Ayodhya" width="1100" height="650">
                         <div class="carousel-caption">
-                            <h3>Taj Mahal</h3>
+                            <h2>Ram Mandir</h2>
+                            <p>The Ram Mandir in Ayodhya is a revered Hindu temple dedicated to Lord Ram, located in Uttar Pradesh, India. It marks the birthplace of Lord Ram and symbolizes cultural and religious significance.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS1TyNH7XWWo-fnd3jDPXSOsHW0oMPkOkI73ThDi9_5PC3AXpIclxIt8q8c8_sH_0Fn3NXPB_9LN0Fo5YB1IPK4KSE1fbHVLaVXf6FrOQ" alt="Taj Mahal" width="1100" height="650">
+                        <div class="carousel-caption">
+                            <h2>Taj Mahal</h2>
                             <p>The Taj Mahal is an ivory-white marble mausoleum located in Agra, Uttar Pradesh. It was commissioned by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
                         </div>
                     </div>
                     
                     <div class="carousel-item">
-                        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS1TyNH7XWWo-fnd3jDPXSOsHW0oMPkOkI73ThDi9_5PC3AXpIclxIt8q8c8_sH_0Fn3NXPB_9LN0Fo5YB1IPK4KSE1fbHVLaVXf6FrOQ" alt="Taj Mahal" width="1100" height="500">
+                        <img src="https://theheritageart.com/wp-content/uploads/2022/12/Qutub-Minar-Delhi.jpg" alt="Qutub Minar" width="1100" height="650">
                         <div class="carousel-caption">
-                            <h3>Taj Mahal</h3>
-                            <p>The Taj Mahal is an ivory-white marble mausoleum located in Agra, Uttar Pradesh. It was commissioned by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
+                            <h2>Qutub Minar</h2>
+                            <p>Located in Delhi, Qutub Minar is a 73-meter-high tower and is one of the tallest brick minarets in the world. It was built in 1193 by Qutb-ud-Din Aibak.</p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS1TyNH7XWWo-fnd3jDPXSOsHW0oMPkOkI73ThDi9_5PC3AXpIclxIt8q8c8_sH_0Fn3NXPB_9LN0Fo5YB1IPK4KSE1fbHVLaVXf6FrOQ" alt="Taj Mahal" width="1100" height="500">
+                        <img src="https://cdn.britannica.com/20/189820-050-D650A54D/Red-Fort-Old-Delhi-India.jpg" alt="Red Fort" width="1100" height="650">
                         <div class="carousel-caption">
-                            <h3>Taj Mahal</h3>
-                            <p>The Taj Mahal is an ivory-white marble mausoleum located in Agra, Uttar Pradesh. It was commissioned by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
+                            <h2>Red Fort</h2>
+                            <p>The Red Fort, located in the heart of Delhi, is a historic fort and a UNESCO World Heritage site. It was the main residence of the emperors of the Mughal dynasty for around 200 years.</p>
+                        </p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS1TyNH7XWWo-fnd3jDPXSOsHW0oMPkOkI73ThDi9_5PC3AXpIclxIt8q8c8_sH_0Fn3NXPB_9LN0Fo5YB1IPK4KSE1fbHVLaVXf6FrOQ" alt="Taj Mahal" width="1100" height="500">
+                        <img src="https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1456139572/Delhi091.jpg" alt="Indian Gate" width="1100" height="650">
                         <div class="carousel-caption">
-                            <h3>Taj Mahal</h3>
-                            <p>The Taj Mahal is an ivory-white marble mausoleum located in Agra, Uttar Pradesh. It was commissioned by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
+                            <h2>India Gate</h2>
+                            <p>India Gate, located in New Delhi, is a war memorial built in honor of soldiers who died during World War I. It is a symbol of national pride and resilience.</p>
+                        </p>
                         </div>
                     </div>
 
-                    <div class="carousel-item">
-                        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS1TyNH7XWWo-fnd3jDPXSOsHW0oMPkOkI73ThDi9_5PC3AXpIclxIt8q8c8_sH_0Fn3NXPB_9LN0Fo5YB1IPK4KSE1fbHVLaVXf6FrOQ" alt="Taj Mahal" width="1100" height="500">
-                        <div class="carousel-caption">
-                            <h3>Taj Mahal</h3>
-                            <p>The Taj Mahal is an ivory-white marble mausoleum located in Agra, Uttar Pradesh. It was commissioned by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
-                        </div>
-                    </div>
                 </div>
+
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
         </div>
     </body>
